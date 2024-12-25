@@ -3,20 +3,20 @@
 	"sheet_id_kovaaks": "your_kovaaks_sheet_id_here",
 	"sheet_id_aimlab": "your_aimlab_sheet_id_here",
 	"scenario_name_ranges": [
-		"Novice!C3:C14",
-		"Intermediate!C3:C18",
-		"Advanced!C3:C18"
-	],
-	"highscore_ranges": [
-		"Novice!E3:E14",
-		"Intermediate!E3:E18",
-		"Advanced!E3:E18"
-	],
-	"average_ranges": [
-		"Novice!I3:I14",
-        "Intermediate!I3:I18",
-        "Advanced!I3:I18"
-	],
+        	"Novice!C3:C20",
+        	"Intermediate!C3:C20",
+        	"Advanced!C3:C20"
+   	 ],
+    	"highscore_ranges": [
+      	  	"Novice!F3:F20",
+      	  	"Intermediate!F3:F20",
+      	  	"Advanced!F3:F20"
+    	],
+    	"average_ranges": [
+     	  	"",
+		"",
+     	   	""
+   	 ],
 	"aimlab_name_ranges": [
 		"Novice!C3:C14",
 		"Intermediate!C3:C14",
@@ -28,13 +28,13 @@
 		"Advanced!F3:F20"
 	],
 	"aimlab_average_ranges": [
-        "Novice!J3:J14",
-        "Intermediate!J3:J14",
-        "Advanced!J3:J20"
+	        "Novice!J3:J14",
+	        "Intermediate!J3:J14",
+	        "Advanced!J3:J20"
     ],
 	"run_mode": "watchdog",
 	"game": "Kovaaks",
-	"calculate_averages": true,
+	"calculate_averages": false,
 	"num_of_runs_to_average": 5,
 	"polling_interval": 60,
 	"open_config": true
